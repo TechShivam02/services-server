@@ -20,7 +20,9 @@ const adminRoute = require("./router/admin-router.js");
 
 const corsOptions = {
     
-    origin : "https://techservices.vercel.app",
+    
+
+    origin : "https://tservices.vercel.app",
     method:"GET,POST,PUT,DELETE,PATCH,HEAD",
 
     Credential:true,
